@@ -38,7 +38,7 @@ public class Vehicle{
        
 
    public void DisplayInfo(){
-       System.out.println(brand + " " + model + " - " + year);
+      System.out.println("brand: " + brand + "," + " model: " + model + "," + " year: " + year);
    }
 
    public int calculateAge() {
