@@ -11,4 +11,20 @@ public class Car extends Vehicle{
     super.DisplayInfo();
     System.out.println("Number Of Doors: "+ numberOfDoors);  
    }
+
+   public void moveForward(){
+      System.out.println("The car move forward");
+   }
+
+   public void moveBackward(){
+      System.out.println("The car move Backward");
+   }
+
+   public void moveLeft(){
+      System.out.println("The car turning left");
+   }
+
+   public void moveRight(){
+      System.out.println("The car turning right");
+   }
 } 
