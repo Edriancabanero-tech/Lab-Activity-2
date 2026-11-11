@@ -1,4 +1,4 @@
-public class Vehicle{
+public abstract class Vehicle{
    private String brand;
    private String model;
    private int year;
@@ -12,6 +12,11 @@ public class Vehicle{
          this.year = 2026;
       }
    }
+
+   public abstract void moveForward();
+   public abstract void moveBackward();
+   public abstract void moveLeft();
+   public abstract void moveRight();
    
    public String getBrand(){
       return brand;
