@@ -1,3 +1,6 @@
+package devices;
+import contracts.Serviceable;
+
 public class Printer implements Serviceable{
    @Override
    public void service() {
@@ -5,4 +8,3 @@ public class Printer implements Serviceable{
    }
     
 }
-

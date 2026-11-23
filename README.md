@@ -13,7 +13,7 @@ Lab-Activity SEMI-FINALS - Activity 3 - Interface
 === Car Interfaces ===
 Car: Check oil and brakes
 
-=== Motorcycle Interaces ===
+=== Motorcycle Interfaces ===
 Motorcycle: Inspect tires and brakes
 
 === Truck Interfaces ===
