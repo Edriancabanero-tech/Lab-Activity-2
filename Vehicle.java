@@ -3,7 +3,7 @@ public abstract class Vehicle{
    private String model;
    private int year;
 
-   Vehicle(String brand, String model, int year){
+    public Vehicle(String brand, String model, int year){
       this.brand = brand;
       this.model = model;
       if(year >= 1886 && year <= 2026){
@@ -17,6 +17,7 @@ public abstract class Vehicle{
    public abstract void moveBackward();
    public abstract void moveLeft();
    public abstract void moveRight();
+   public abstract void service();
    
    public String getBrand(){
       return brand;
