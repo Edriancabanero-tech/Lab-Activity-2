@@ -1,3 +1,12 @@
+package app;
+
+import contracts.Serviceable;
+import devices.Printer;
+import vehicles.Car;
+import vehicles.Motorcycle;
+import vehicles.Truck;
+import vehicles.Vehicle;
+
 public class Main{
    
    public static void performService(Serviceable item){
@@ -14,7 +23,7 @@ public class Main{
       performService(car1);
       System.out.println();
 
-      System.out.println("=== Motorcycle Interaces ===");
+      System.out.println("=== Motorcycle Interfaces ===");
       Motorcycle motor1 = new Motorcycle("Yamaha", "aerox", 2026, "155cc");
       performService(motor1);
       System.out.println();
